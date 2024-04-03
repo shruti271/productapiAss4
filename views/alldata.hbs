@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       <table border='3'>
+    <th>title</th>
+    <th>img</th>
+    <th>stars</th>
+    <th>reviews</th>
+    <th>prie</th>
+    <th>listprice</th>
+    <th>categoryName</th>
+    <th>isbestseller</th>
+    <th>boughtInLastMonth</th>
+     {{#each products}}     
+            {{{showRow this}}}             
+        {{/each}}
+        
+    </table>
+</body>
+</html>

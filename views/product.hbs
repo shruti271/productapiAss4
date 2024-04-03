@@ -1,0 +1,43 @@
+<!-- views/new_product.handlebars -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Product</title>
+</head>
+<body>
+    <h1>Add New Product</h1>
+    <form action="/api/products" method="POST">
+        <label for="asin">ASIN:</label>
+        <input type="text" id="asin" name="asin"><br>
+        
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title"><br>
+        
+        <label for="imgurl">Image URL:</label>
+        <input type="text" id="imgurl" name="imgurl"><br>
+        
+        <label for="stars">Stars:</label>
+        <input type="text" id="stars" name="stars"><br>
+        
+        <label for="reviews">Reviews:</label>
+        <input type="text" id="reviews" name="reviews"><br>
+        
+        <label for="price">Price:</label>
+        <input type="text" id="price" name="price"><br>
+        
+        <label for="listPrice">List Price:</label>
+        <input type="text" id="listPrice" name="listPrice"><br>
+        
+        <label for="categoryName">Category Name:</label>
+        <input type="text" id="categoryName" name="categoryName"><br>
+        
+        <label for="BetterSeller">Is Best Seller:</label>
+        <input type="text" id="BetterSeller" name="BetterSeller"><br>
+        
+        <label for="lastmonth">Bought In Last Month:</label>
+        <input type="text" id="lastmonth" name="lastmonth"><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
