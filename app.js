@@ -14,7 +14,9 @@ mongoose.connect(database.url);
 
 var Employee = require('./models/employee');
  
- 
+ app.get("/",function(req,res){
+	res.send("hell")
+ })
 //get all employee data from db
 app.get('/api/employees', function(req, res) {
 	// use mongoose to get all todos in the database
